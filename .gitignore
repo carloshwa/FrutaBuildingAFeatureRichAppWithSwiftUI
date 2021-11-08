@@ -2,6 +2,7 @@
 #
 # Apple sample code gitignore configuration.
 
+Pods/
 # Finder
 .DS_Store
 

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21E65691C3EE0CDD72E2A5D8 /* Pods_Fruta_iOS_Widgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A175FB8CEE7741F066BEDEDB /* Pods_Fruta_iOS_Widgets.framework */; };
 		610F54C826158DDB001D3AA0 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1C726157D870046AAA9 /* PaymentButton.swift */; };
 		610F54C926158DDB001D3AA0 /* CountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CD26157D870046AAA9 /* CountButton.swift */; };
 		610F54CA26158DDB001D3AA0 /* CardActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111A1CE26157D870046AAA9 /* CardActionButton.swift */; };
@@ -282,6 +283,8 @@
 		69734294265EC1390005A14C /* SmoothieCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69734291265EC1390005A14C /* SmoothieCommands.swift */; };
 		69734295265EC1390005A14C /* SmoothieCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69734291265EC1390005A14C /* SmoothieCommands.swift */; };
 		69734296265EC1390005A14C /* SmoothieCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69734291265EC1390005A14C /* SmoothieCommands.swift */; };
+		81E2027313EEB04A2D975218 /* Pods_Fruta_iOS_Clip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EAE082DD28D0447749D32E8 /* Pods_Fruta_iOS_Clip.framework */; };
+		9DA7933693027346D76B487B /* Pods_Fruta_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB98030E82CD04FCA3F3C1C3 /* Pods_Fruta_iOS.framework */; };
 		A31FA5B526323F9400FC46C1 /* NutritionalItems.json in Resources */ = {isa = PBXBuildFile; fileRef = A31FA5B326323F9400FC46C1 /* NutritionalItems.json */; };
 		A31FA5B626323F9400FC46C1 /* NutritionalItems.json in Resources */ = {isa = PBXBuildFile; fileRef = A31FA5B326323F9400FC46C1 /* NutritionalItems.json */; };
 		A31FA5B826323F9400FC46C1 /* NutritionalItems.json in Resources */ = {isa = PBXBuildFile; fileRef = A31FA5B326323F9400FC46C1 /* NutritionalItems.json */; };
@@ -390,7 +393,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		33BFC6A1DCA101BFABE069E5 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		17AB143B33213B85CFE1D5B2 /* Pods-Fruta iOS Clip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fruta iOS Clip.release.xcconfig"; path = "Target Support Files/Pods-Fruta iOS Clip/Pods-Fruta iOS Clip.release.xcconfig"; sourceTree = "<group>"; };
+		33BFC6A1DCA101BFABE069E5 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		40F322911B83EF383A3C7B4D /* Pods-Fruta iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fruta iOS.debug.xcconfig"; path = "Target Support Files/Pods-Fruta iOS/Pods-Fruta iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		43B94E222CB4CE3AAB66FDC9 /* Pods-Fruta iOS Widgets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fruta iOS Widgets.release.xcconfig"; path = "Target Support Files/Pods-Fruta iOS Widgets/Pods-Fruta iOS Widgets.release.xcconfig"; sourceTree = "<group>"; };
+		48B0AA01B36D1C5DD61AC928 /* Pods-Fruta iOS Clip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fruta iOS Clip.debug.xcconfig"; path = "Target Support Files/Pods-Fruta iOS Clip/Pods-Fruta iOS Clip.debug.xcconfig"; sourceTree = "<group>"; };
 		5E6123FD244E8B32004DDFF7 /* FrutaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutaApp.swift; sourceTree = "<group>"; };
 		5E6123FF244E8B32004DDFF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		610F54662615818D001D3AA0 /* NutritionFactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionFactView.swift; sourceTree = "<group>"; };
@@ -461,6 +468,8 @@
 		61C3378226559001001AAC1D /* PurchaseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseButtonStyle.swift; sourceTree = "<group>"; };
 		69734291265EC1390005A14C /* SmoothieCommands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothieCommands.swift; sourceTree = "<group>"; };
 		7FC1AA3A24832F0200A6CF1F /* iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS.entitlements; sourceTree = "<group>"; };
+		9EAE082DD28D0447749D32E8 /* Pods_Fruta_iOS_Clip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fruta_iOS_Clip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A175FB8CEE7741F066BEDEDB /* Pods_Fruta_iOS_Widgets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fruta_iOS_Widgets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31FA5B326323F9400FC46C1 /* NutritionalItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NutritionalItems.json; sourceTree = "<group>"; };
 		A3C268F4262FE0030093B9DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A3C268FD262FE0060093B9DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
@@ -470,8 +479,11 @@
 		A3C269242630F6900093B9DF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3DC6E3A2657241A008724A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Ingredients.strings; sourceTree = "<group>"; };
 		A3DC6E4026572422008724A1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Ingredients.strings; sourceTree = "<group>"; };
-		A594677E73BEF8AA1F7A859F /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
-		C640196161A8E05832EA149C /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		A594677E73BEF8AA1F7A859F /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
+		BB98030E82CD04FCA3F3C1C3 /* Pods_Fruta_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fruta_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5556207F9DF311EC33464D8 /* Pods-Fruta iOS Widgets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fruta iOS Widgets.debug.xcconfig"; path = "Target Support Files/Pods-Fruta iOS Widgets/Pods-Fruta iOS Widgets.debug.xcconfig"; sourceTree = "<group>"; };
+		C640196161A8E05832EA149C /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		CD240E7F6E51C477AA5A23AB /* Pods-Fruta iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fruta iOS.release.xcconfig"; path = "Target Support Files/Pods-Fruta iOS/Pods-Fruta iOS.release.xcconfig"; sourceTree = "<group>"; };
 		E036C2ED2633B2B200E15D26 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -480,6 +492,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA7933693027346D76B487B /* Pods_Fruta_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +507,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E65691C3EE0CDD72E2A5D8 /* Pods_Fruta_iOS_Widgets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +522,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E2027313EEB04A2D975218 /* Pods_Fruta_iOS_Clip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,8 +535,20 @@
 				33BFC6A1DCA101BFABE069E5 /* LICENSE.txt */,
 				A594677E73BEF8AA1F7A859F /* ACKNOWLEDGMENTS.txt */,
 			);
-			name = LICENSE;
 			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		5292D47D63CA53FA6246EFA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40F322911B83EF383A3C7B4D /* Pods-Fruta iOS.debug.xcconfig */,
+				CD240E7F6E51C477AA5A23AB /* Pods-Fruta iOS.release.xcconfig */,
+				C5556207F9DF311EC33464D8 /* Pods-Fruta iOS Widgets.debug.xcconfig */,
+				43B94E222CB4CE3AAB66FDC9 /* Pods-Fruta iOS Widgets.release.xcconfig */,
+				48B0AA01B36D1C5DD61AC928 /* Pods-Fruta iOS Clip.debug.xcconfig */,
+				17AB143B33213B85CFE1D5B2 /* Pods-Fruta iOS Clip.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		5E6123F7244E8B32004DDFF7 = {
@@ -535,6 +562,8 @@
 				5E612405244E8B32004DDFF7 /* Products */,
 				CC6C0F7AEF2D0CBC2E3EEFD6 /* Configuration */,
 				3CAE0E9B584C983E4E90807D /* LICENSE */,
+				5292D47D63CA53FA6246EFA9 /* Pods */,
+				86BA8EFC5E21F92766AE67E6 /* Frameworks */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -726,6 +755,16 @@
 			path = Smoothie;
 			sourceTree = "<group>";
 		};
+		86BA8EFC5E21F92766AE67E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB98030E82CD04FCA3F3C1C3 /* Pods_Fruta_iOS.framework */,
+				A175FB8CEE7741F066BEDEDB /* Pods_Fruta_iOS_Widgets.framework */,
+				9EAE082DD28D0447749D32E8 /* Pods_Fruta_iOS_Clip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A3C268C0262FDAD50093B9DF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -753,6 +792,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 610F550326158DDB001D3AA0 /* Build configuration list for PBXNativeTarget "Fruta iOS" */;
 			buildPhases = (
+				B40FA1B317B19ADF2E69E9BE /* [CP] Check Pods Manifest.lock */,
 				610F54C726158DDB001D3AA0 /* Sources */,
 				610F54FC26158DDB001D3AA0 /* Frameworks */,
 				610F54FD26158DDB001D3AA0 /* Resources */,
@@ -795,6 +835,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 610F556126158E0B001D3AA0 /* Build configuration list for PBXNativeTarget "Fruta iOS Widgets" */;
 			buildPhases = (
+				394C6E5581E3D30109AADF03 /* [CP] Check Pods Manifest.lock */,
 				610F554B26158E0A001D3AA0 /* Sources */,
 				610F554C26158E0A001D3AA0 /* Frameworks */,
 				610F554D26158E0A001D3AA0 /* Resources */,
@@ -829,6 +870,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 612F3D942615A2F600137D77 /* Build configuration list for PBXNativeTarget "Fruta iOS Clip" */;
 			buildPhases = (
+				5F2B29525A4040E8021EEF3C /* [CP] Check Pods Manifest.lock */,
 				612F3D802615A2F400137D77 /* Sources */,
 				612F3D812615A2F400137D77 /* Frameworks */,
 				612F3D822615A2F400137D77 /* Resources */,
@@ -958,6 +1000,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		394C6E5581E3D30109AADF03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fruta iOS Widgets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2B29525A4040E8021EEF3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fruta iOS Clip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B40FA1B317B19ADF2E69E9BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fruta iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		610F54C726158DDB001D3AA0 /* Sources */ = {
@@ -1356,6 +1467,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1421,6 +1534,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1442,9 +1557,9 @@
 		};
 		610F550426158DDB001D3AA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C640196161A8E05832EA149C /* SampleCode.xcconfig */;
+			baseConfigurationReference = 40F322911B83EF383A3C7B4D /* Pods-Fruta iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
@@ -1465,7 +1580,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0;
-				OTHER_SWIFT_FLAGS = "-disallow-use-new-driver";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.fruta${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1478,9 +1593,9 @@
 		};
 		610F550526158DDB001D3AA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C640196161A8E05832EA149C /* SampleCode.xcconfig */;
+			baseConfigurationReference = CD240E7F6E51C477AA5A23AB /* Pods-Fruta iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
@@ -1501,7 +1616,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0;
-				OTHER_SWIFT_FLAGS = "-disallow-use-new-driver";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.fruta${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1575,8 +1690,9 @@
 		};
 		610F556226158E0B001D3AA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C640196161A8E05832EA149C /* SampleCode.xcconfig */;
+			baseConfigurationReference = C5556207F9DF311EC33464D8 /* Pods-Fruta iOS Widgets.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
@@ -1607,8 +1723,9 @@
 		};
 		610F556326158E0B001D3AA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C640196161A8E05832EA149C /* SampleCode.xcconfig */;
+			baseConfigurationReference = 43B94E222CB4CE3AAB66FDC9 /* Pods-Fruta iOS Widgets.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
@@ -1708,7 +1825,7 @@
 		};
 		612F3D952615A2F600137D77 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C640196161A8E05832EA149C /* SampleCode.xcconfig */;
+			baseConfigurationReference = 48B0AA01B36D1C5DD61AC928 /* Pods-Fruta iOS Clip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1747,7 +1864,7 @@
 		};
 		612F3D962615A2F600137D77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C640196161A8E05832EA149C /* SampleCode.xcconfig */;
+			baseConfigurationReference = 17AB143B33213B85CFE1D5B2 /* Pods-Fruta iOS Clip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
